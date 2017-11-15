@@ -1,0 +1,47 @@
+.App{
+  padding: 0;
+  margin: 0;
+}
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  margin-left: 2%;
+}
+
+.App-header {
+  background-color: white;
+  color: white;
+}
+
+hr{
+  width: -webkit-fill-available;
+  margin: 0;
+  height: 0;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-left-block{
+  position: fixed;
+  float: left;
+  width: 6%;
+  height: -webkit-fill-available;
+  background-color:black;
+}
+
+.App-right-block{
+  float: right;
+  margin-left: 6%;
+  position: fixed;
+  background-color: red;
+  width: 94%;
+  height: -webkit-fill-available;
+}
